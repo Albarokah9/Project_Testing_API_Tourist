@@ -1,0 +1,26 @@
+{
+    "name": "project-api-testing",
+    "version": "1.0.0",
+    "description": "API-Testing-Intregasi-Mysql",
+    "main": "index.js",
+    "author": "Albarokah",
+    "license": "MIT",
+    "devDependencies": {
+        "cypress": "^14.5.3",
+        "nodemon": "^3.1.10"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "json-server": "^1.0.0-beta.3",
+        "mysql2": "^3.14.3"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "cy:open": "cypress open",
+        "cy:run": "cypress run",
+        "test": "cypress run"
+    },
+    "repository": "https://github.com/Albarokah9/Project_Testing_API_Tourist.git"
+}
