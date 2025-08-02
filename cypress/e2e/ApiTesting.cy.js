@@ -1,6 +1,6 @@
 describe('Tourists API Simple Tests', () => {
     describe('GET /tourist', () => {
-        it.only('should get all tourists', () => {
+        it('should get all tourists', () => {
             cy.apiGet('/tourist').then((response) => {
                 expect(response.status).to.eq(200);
                 expect(response.body).to.be.an('array');
